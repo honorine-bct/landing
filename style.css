@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700")
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css")
+<link rel="stylesheet" href="style.css">
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d6ccc2;
+  padding: 20px;
+  color: #a98467;
+}
+
+.frame {
+  background-color: #FFFFFF;
+  border: 1px solid #e3d5ca;
+  padding: 60px;
+  margin: 50px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.frame h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: "made tommy", sans-serif;
+}
+
+.frame img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.frame p {
+  text-align: center;
+  border: 1px solid #000;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.frame a {
+  text-decoration: none;
+  color: #a98467;
+  font-family: "made tommy", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 13px;
+  transition: color 0.3s ease;
+}
+
+.frame a:hover {
+  color: black;
+}
+
+.frame h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: "made tommy", sans-serif;
+}
+
+.frame ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.frame ul li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+h1, h2, h3, h4 {
+  color: #a98467;
+  font-family: "Regular brush", sans-serif;
+  letter-spacing: 7px;
+  font-weight: 200;
+}
+
+a {
+  color: #a98467;
+  text-decoration: none;
+  font-family: "made tommy", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 13px;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: black;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.card-white {
+  background-color: #A0522D;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.img-circle {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #A0522D;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+
+.btn-blue:hover {
+  background-color: #522B47;
+  color: white;
+}
+
+.txt-margin {
+  margin: 32px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+}
+
+#introduction {
+  margin-bottom: 35px;
+}
